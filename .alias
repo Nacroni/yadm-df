@@ -1,0 +1,12 @@
+alias editor="micro"
+
+alias reboot="systemctl reboot"
+alias poweroff="systemctl poweroff"
+
+alias cowtune='fortune | cowsay'
+alias cowtuner='fortune | cowsay -r'
+
+alias disable-services='sudo systemctl disable tailscaled --now && sudo systemctl disable nxserver --now'
+alias enable-services='sudo systemctl enable tailscaled --now && sudo systemctl enable nxserver --now'
+
+export PATH="${PATH:+${PATH}:}/home/nacroni/.local/bin"
