@@ -121,4 +121,4 @@ prompt_dir() {
   prompt_segment magenta $CURRENT_FG '%~'
 }
 
-cowtune | tee ~/zsh.new-cowtune
+~/.fun
